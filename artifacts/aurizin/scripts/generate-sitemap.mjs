@@ -35,6 +35,7 @@ const DYNAMIC_SOURCES = {
   "/industries/:slug": "data/industries.ts",
   "/portfolio/:slug": "data/projects.ts",
   "/blog/:slug": "data/blog.ts",
+  "/products/:slug": "data/products.ts",
 };
 
 // Routes that must never be indexed (404, admin, auth, dashboards, api, etc.).
