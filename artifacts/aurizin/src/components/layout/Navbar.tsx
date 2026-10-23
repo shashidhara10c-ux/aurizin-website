@@ -17,6 +17,7 @@ import {
 const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
+  { href: "/products", label: "Products" },
   { href: "/industries", label: "Industries" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/blog", label: "Blog" },
@@ -47,6 +48,11 @@ export function Navbar() {
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
+                <NavigationMenuLink asChild className={cn("text-sm font-medium transition-colors hover:text-primary", location.startsWith("/products") ? "text-primary" : "text-foreground/80")}>
+                  <Link href="/products">Products</Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent hover:bg-transparent focus:bg-transparent px-0 text-foreground/80 hover:text-primary data-[state=open]:text-primary">
                   Services
                 </NavigationMenuTrigger>
@@ -68,7 +74,7 @@ export function Navbar() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              {NAV_LINKS.slice(2).map((link) => (
+              {NAV_LINKS.slice(3).map((link) => (
                 <NavigationMenuItem key={link.href}>
                   <NavigationMenuLink asChild className={cn("text-sm font-medium transition-colors hover:text-primary", location === link.href ? "text-primary" : "text-foreground/80")}>
                     <Link href={link.href}>{link.label}</Link>

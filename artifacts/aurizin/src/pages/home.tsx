@@ -3,6 +3,7 @@ import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronRight, CheckCircle2, Star, Zap, Code2, Globe, Shield, Smartphone, ArrowUpRight } from "lucide-react";
 import { HeroLogo } from "@/components/HeroLogo";
+import { products } from "@/data/products";
 import { SiReact, SiNextdotjs, SiNodedotjs, SiPython, SiSpringboot, SiDotnet, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb, SiDocker, SiKubernetes, SiFirebase, SiGithub, SiGitlab, SiJenkins, SiFigma } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
@@ -114,6 +115,41 @@ export default function Home() {
               <p className="text-sm md:text-base text-muted-foreground font-medium">Support Available</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Products Section */}
+      <section className="py-24 relative">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
+            <div className="max-w-2xl">
+              <p className="text-sm font-semibold text-primary mb-3">Our products</p>
+              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight">Software we build and run ourselves.</h2>
+            </div>
+            <Button variant="outline" asChild><Link href="/products">All products</Link></Button>
+          </div>
+          {products.map((p) => (
+            <div key={p.slug} className="grid lg:grid-cols-[1fr_1.15fr] gap-10 items-center rounded-3xl border border-border dark:border-white/10 bg-card/70 dark:bg-white/[0.03] backdrop-blur-xl p-6 md:p-10 dark:shadow-[0_0_60px_rgba(79,116,244,0.10)]">
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold text-muted-foreground">{p.category}</span>
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-xs font-semibold text-emerald-500"><span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />{p.status}</span>
+                </div>
+                <h3 className="font-display text-4xl font-bold tracking-tight mb-4">{p.name}</h3>
+                <p className="text-lg text-foreground/90 leading-relaxed mb-6">{p.tagline}</p>
+                <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 mb-8 text-[15px] text-muted-foreground">
+                  {p.features.slice(0, 6).map((f) => <li key={f.title} className="flex gap-2"><CheckCircle2 className="h-5 w-5 shrink-0 text-primary" />{f.title}</li>)}
+                </ul>
+                <div className="flex flex-wrap gap-3">
+                  <Button asChild className="bg-none bg-[#2027d6] hover:bg-[#1a20b8]"><Link href={`/products/${p.slug}`}>Explore {p.name} <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+                  <Button asChild variant="outline"><a href={p.signupUrl} target="_blank" rel="noopener">Start free trial <ArrowUpRight className="ml-2 h-4 w-4" /></a></Button>
+                </div>
+              </div>
+              <Link href={`/products/${p.slug}`} className="block overflow-hidden rounded-2xl border border-border dark:border-white/10 shadow-2xl">
+                <img src={p.hero} alt={`${p.name} shared team inbox`} className="w-full h-auto" loading="lazy" />
+              </Link>
+            </div>
+          ))}
         </div>
       </section>
 

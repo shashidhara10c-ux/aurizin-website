@@ -17,6 +17,8 @@ import Careers from "@/pages/careers";
 import Privacy from "@/pages/privacy";
 import Terms from "@/pages/terms";
 import Contact from "@/pages/contact";
+import Products from "@/pages/products";
+import ProductDetail from "@/pages/product-detail";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 
@@ -29,6 +31,8 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
+        <Route path="/products" component={Products} />
+        <Route path="/products/:slug" component={ProductDetail} />
         <Route path="/industries" component={Industries} />
         <Route path="/industries/:slug" component={IndustryDetail} />
         <Route path="/portfolio" component={Portfolio} />

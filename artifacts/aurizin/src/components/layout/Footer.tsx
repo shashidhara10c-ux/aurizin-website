@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import logo from "@/assets/aurizin-logo.png";
+import { products } from "@/data/products";
 
 export function Footer() {
   return (
     <footer className="bg-background border-t border-border pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-6">
               <img src={logo} alt="Aurizin Logo" className="h-10 w-auto object-contain [filter:invert(1)_hue-rotate(180deg)] dark:[filter:none]" />
@@ -25,6 +26,16 @@ export function Footer() {
             </ul>
           </div>
           
+          <div>
+            <h4 className="font-semibold text-lg mb-6">Products</h4>
+            <ul className="space-y-4">
+              {products.map((p) => (
+                <li key={p.slug}><Link href={`/products/${p.slug}`} className="text-muted-foreground hover:text-primary transition-colors">{p.name}</Link><div className="text-xs text-muted-foreground/70">{p.category}</div></li>
+              ))}
+              <li><Link href="/products" className="text-muted-foreground hover:text-primary transition-colors">All products</Link></li>
+            </ul>
+          </div>
+
           <div>
             <h4 className="font-semibold text-lg mb-6">Services</h4>
             <ul className="space-y-4">
@@ -75,7 +86,7 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2024 Aurizin Innovations Pvt. Ltd. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Aurizin Innovations Private Limited · CIN U62091TS2026PTC221859</p>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
