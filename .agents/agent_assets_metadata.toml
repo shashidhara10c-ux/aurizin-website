@@ -1,0 +1,577 @@
+uploads = []
+
+[[generated]]
+id = "Myc0KzPQWBBPWfRi-tYeL"
+uri = "file://artifacts/aurizin/src/assets/hero-home.png"
+type = "image"
+title = "3D glowing A logo hero"
+
+[[generated]]
+id = "k2gur0NyWfRoEYq2yOxqX"
+uri = "file://artifacts/aurizin/src/assets/hero-services.png"
+type = "image"
+title = "Futuristic floating service cards"
+
+[[generated]]
+id = "0q_oxSc241B7ShEPyFsyC"
+uri = "file://artifacts/aurizin/src/assets/hero-industries.png"
+type = "image"
+title = "Holographic globe 3D render"
+
+[[generated]]
+id = "YxTWO0maA2sbdHzIjYG__"
+uri = "file://artifacts/aurizin/src/assets/hero-portfolio.png"
+type = "image"
+title = "Dashboard laptop phone mockup"
+
+[[generated]]
+id = "raeNqPLIc2L7Cy_BwUkU9"
+uri = "file://artifacts/aurizin/src/assets/hero-about.png"
+type = "image"
+title = "Modern futuristic office interior"
+
+[[generated]]
+id = "9EDneftqNLvil66V6bZBK"
+uri = "file://artifacts/aurizin/src/assets/hero-blog.png"
+type = "image"
+title = "Abstract laptop coding graphic"
+
+[[generated]]
+id = "AcGpDRtWAvDQ9WrH7i09i"
+uri = "file://artifacts/aurizin/src/assets/portfolio-ai-bot.png"
+type = "image"
+title = "AI Customer Support Bot Dashboard"
+
+[[generated]]
+id = "C3VBjs2ND3p673CdWbgRv"
+uri = "file://artifacts/aurizin/src/assets/portfolio-edutech.png"
+type = "image"
+title = "Edutech Learning Platform Dashboard"
+
+[[generated]]
+id = "nJyR1_GTI3rWS5B-zIVMt"
+uri = "file://artifacts/aurizin/src/assets/portfolio-finance.png"
+type = "image"
+title = "Finance Management App Dashboard"
+
+[[generated]]
+id = "ih1D4mB8M2Y8NFjJ52z-I"
+uri = "file://artifacts/aurizin/src/assets/blog-ai.png"
+type = "image"
+title = "AI & Automation Blog Thumbnail"
+
+[[generated]]
+id = "2jq132lqv8HyNdyca8rB0"
+uri = "file://artifacts/aurizin/src/assets/blog-cloud.png"
+type = "image"
+title = "Cloud Computing Blog Thumbnail"
+
+[[generated]]
+id = "t6749cQbrgkZwH5QtdwRm"
+uri = "file://artifacts/aurizin/src/assets/blog-software.png"
+type = "image"
+title = "Software Development Blog Thumbnail"
+
+[[generated]]
+id = "pMnq4GI4ewVA9GgmP6uZq"
+uri = "file://artifacts/aurizin/src/assets/hc-hms.png"
+type = "image"
+title = "hospital management dashboard"
+
+[[generated]]
+id = "7rZiM4X9fnCnLyVHn-ZNW"
+uri = "file://artifacts/aurizin/src/assets/hc-patient-app.png"
+type = "image"
+title = "patient health mobile app"
+
+[[generated]]
+id = "mz8g3RvZE0yjLel7ppehu"
+uri = "file://artifacts/aurizin/src/assets/hc-doctor.png"
+type = "image"
+title = "doctor scheduling dashboard"
+
+[[generated]]
+id = "1_rtHOUm2qHe51P6_SyHc"
+uri = "file://artifacts/aurizin/src/assets/hc-pharmacy.png"
+type = "image"
+title = "pharmacy management software"
+
+[[generated]]
+id = "3JxW9hEx6bqQ0umJBL7rZ"
+uri = "file://artifacts/aurizin/src/assets/hc-chatbot.png"
+type = "image"
+title = "ai medical chatbot"
+
+[[generated]]
+id = "R3CuukCyjz9AgcSCrOIqO"
+uri = "file://artifacts/aurizin/src/assets/hc-analytics.png"
+type = "image"
+title = "healthcare analytics dashboard"
+
+[[generated]]
+id = "rh6nKgkcUAZHcrvJdX4Xt"
+uri = "file://artifacts/aurizin/src/assets/hc-hero-3d.png"
+type = "image"
+title = "futuristic 3d tech heart"
+
+[[generated]]
+id = "e131vxbPFr1XMMtw3iDcB"
+uri = "file://artifacts/aurizin/src/assets/edu-hero.png"
+type = "image"
+title = "edu 3d hero"
+
+[[generated]]
+id = "0Tro6A78CcNueMVLgmmQd"
+uri = "file://artifacts/aurizin/src/assets/edu-1.png"
+type = "image"
+title = "edu card 1"
+
+[[generated]]
+id = "rR0pl1Ev_m6-926M9i3mR"
+uri = "file://artifacts/aurizin/src/assets/edu-2.png"
+type = "image"
+title = "edu card 2"
+
+[[generated]]
+id = "eavSQixegFS6riLc-RODM"
+uri = "file://artifacts/aurizin/src/assets/edu-3.png"
+type = "image"
+title = "edu card 3"
+
+[[generated]]
+id = "bEKg3YHsqsZLGPi3p7Plf"
+uri = "file://artifacts/aurizin/src/assets/edu-4.png"
+type = "image"
+title = "edu card 4"
+
+[[generated]]
+id = "TSoY0ghTrx1qEJYuyLrdW"
+uri = "file://artifacts/aurizin/src/assets/mfg-6.png"
+type = "image"
+title = "mfg card 6"
+
+[[generated]]
+id = "pAoebySdQS98L573ajDkJ"
+uri = "file://artifacts/aurizin/src/assets/edu-5.png"
+type = "image"
+title = "edu card 5"
+
+[[generated]]
+id = "EoKYArcWkOPGO-ltCOMFn"
+uri = "file://artifacts/aurizin/src/assets/edu-6.png"
+type = "image"
+title = "edu card 6"
+
+[[generated]]
+id = "TI7Rwc5KAbqKCIA7fKyL6"
+uri = "file://artifacts/aurizin/src/assets/fin-1.png"
+type = "image"
+title = "fin card 1"
+
+[[generated]]
+id = "rnjBvEfCTQrJoLpzevBKG"
+uri = "file://artifacts/aurizin/src/assets/rt-3.png"
+type = "image"
+title = "rt card 3"
+
+[[generated]]
+id = "VakjQT2qPjoQMmASM0MbP"
+uri = "file://artifacts/aurizin/src/assets/hsp-2.png"
+type = "image"
+title = "hsp card 2"
+
+[[generated]]
+id = "pdXeMa7duwWOexH-ew_Yi"
+uri = "file://artifacts/aurizin/src/assets/gm-5.png"
+type = "image"
+title = "gm card 5"
+
+[[generated]]
+id = "azAPdGZbVg26PqNDceI7S"
+uri = "file://artifacts/aurizin/src/assets/fin-2.png"
+type = "image"
+title = "fin card 2"
+
+[[generated]]
+id = "3kCKewXI55TmT_5MBLPsn"
+uri = "file://artifacts/aurizin/src/assets/rt-4.png"
+type = "image"
+title = "rt card 4"
+
+[[generated]]
+id = "Siuga1Lm6KssSeODVh9Ig"
+uri = "file://artifacts/aurizin/src/assets/log-1.png"
+type = "image"
+title = "log card 1"
+
+[[generated]]
+id = "VhL2WZyP6sgXsqhvDakxA"
+uri = "file://artifacts/aurizin/src/assets/gov-4.png"
+type = "image"
+title = "gov card 4"
+
+[[generated]]
+id = "pXQBhddzvpzWSME365l76"
+uri = "file://artifacts/aurizin/src/assets/hsp-3.png"
+type = "image"
+title = "hsp card 3"
+
+[[generated]]
+id = "gbr93hsOR1JlQ0kNQukh-"
+uri = "file://artifacts/aurizin/src/assets/ent-hero.png"
+type = "image"
+title = "ent 3d hero"
+
+[[generated]]
+id = "310pGKi3v-MwWnO2nFF6U"
+uri = "file://artifacts/aurizin/src/assets/fin-3.png"
+type = "image"
+title = "fin card 3"
+
+[[generated]]
+id = "RYOp88lXXjTZ4vFa0QnpH"
+uri = "file://artifacts/aurizin/src/assets/rt-5.png"
+type = "image"
+title = "rt card 5"
+
+[[generated]]
+id = "Frkrckkm-ze5gCKTwlW9_"
+uri = "file://artifacts/aurizin/src/assets/log-2.png"
+type = "image"
+title = "log card 2"
+
+[[generated]]
+id = "cMUbrW_wFkpWGzz80FGxM"
+uri = "file://artifacts/aurizin/src/assets/gov-5.png"
+type = "image"
+title = "gov card 5"
+
+[[generated]]
+id = "GmDELnvBDvJGGCKiW29Cj"
+uri = "file://artifacts/aurizin/src/assets/hsp-4.png"
+type = "image"
+title = "hsp card 4"
+
+[[generated]]
+id = "Vp1o-vgCJfP_gyxckR7ka"
+uri = "file://artifacts/aurizin/src/assets/ent-1.png"
+type = "image"
+title = "ent card 1"
+
+[[generated]]
+id = "JXn5YPcOk2Ys9afXAiR_K"
+uri = "file://artifacts/aurizin/src/assets/re-hero.png"
+type = "image"
+title = "re 3d hero"
+
+[[generated]]
+id = "Wr4xFwvL5JTTmHQ6mkWNJ"
+uri = "file://artifacts/aurizin/src/assets/fin-4.png"
+type = "image"
+title = "fin card 4"
+
+[[generated]]
+id = "dp3Wch6z3JQGetsUXo2hQ"
+uri = "file://artifacts/aurizin/src/assets/rt-6.png"
+type = "image"
+title = "rt card 6"
+
+[[generated]]
+id = "wjZXvl-Gy6djUjdLeU1Ji"
+uri = "file://artifacts/aurizin/src/assets/log-3.png"
+type = "image"
+title = "log card 3"
+
+[[generated]]
+id = "ArURdnjbZCaVkj3pS09C1"
+uri = "file://artifacts/aurizin/src/assets/gov-6.png"
+type = "image"
+title = "gov card 6"
+
+[[generated]]
+id = "XqlmrPppafX6GaM5T3GY4"
+uri = "file://artifacts/aurizin/src/assets/hsp-5.png"
+type = "image"
+title = "hsp card 5"
+
+[[generated]]
+id = "hUCQCba07i0hmy6xpp9H8"
+uri = "file://artifacts/aurizin/src/assets/ent-2.png"
+type = "image"
+title = "ent card 2"
+
+[[generated]]
+id = "kHiLuAgJUMe7-IejSEcDZ"
+uri = "file://artifacts/aurizin/src/assets/re-1.png"
+type = "image"
+title = "re card 1"
+
+[[generated]]
+id = "P8h7_0DcHJXhLzdVKLxSq"
+uri = "file://artifacts/aurizin/src/assets/fin-5.png"
+type = "image"
+title = "fin card 5"
+
+[[generated]]
+id = "U1m-8KoHtl4ur9liu1fiE"
+uri = "file://artifacts/aurizin/src/assets/mfg-hero.png"
+type = "image"
+title = "mfg 3d hero"
+
+[[generated]]
+id = "dzzbTFA41K1Ec3pOYG_4D"
+uri = "file://artifacts/aurizin/src/assets/log-4.png"
+type = "image"
+title = "log card 4"
+
+[[generated]]
+id = "u1PeCTSyxjlNNeaUMXiR_"
+uri = "file://artifacts/aurizin/src/assets/su-hero.png"
+type = "image"
+title = "su 3d hero"
+
+[[generated]]
+id = "HZBOX5kcQltKMrTJPmYOR"
+uri = "file://artifacts/aurizin/src/assets/hsp-6.png"
+type = "image"
+title = "hsp card 6"
+
+[[generated]]
+id = "aVYbq4lYpdEjuUOqjTrx7"
+uri = "file://artifacts/aurizin/src/assets/ent-3.png"
+type = "image"
+title = "ent card 3"
+
+[[generated]]
+id = "fk7cqqP1vOes0StmFoSw9"
+uri = "file://artifacts/aurizin/src/assets/re-2.png"
+type = "image"
+title = "re card 2"
+
+[[generated]]
+id = "mmDHRmuJ4osVzAJomZRGg"
+uri = "file://artifacts/aurizin/src/assets/fin-6.png"
+type = "image"
+title = "fin card 6"
+
+[[generated]]
+id = "D7yiQz2p_XCb4kwFDtRRN"
+uri = "file://artifacts/aurizin/src/assets/mfg-1.png"
+type = "image"
+title = "mfg card 1"
+
+[[generated]]
+id = "oIT5ZIiK0PqEK4nEObf3T"
+uri = "file://artifacts/aurizin/src/assets/log-5.png"
+type = "image"
+title = "log card 5"
+
+[[generated]]
+id = "oW3IcVU0ySpKXA1TCzEtT"
+uri = "file://artifacts/aurizin/src/assets/su-1.png"
+type = "image"
+title = "su card 1"
+
+[[generated]]
+id = "5qVDavCyFkIIHiB3LANaW"
+uri = "file://artifacts/aurizin/src/assets/gm-hero.png"
+type = "image"
+title = "gm 3d hero"
+
+[[generated]]
+id = "r6aP7_n-ydtCPA7GUClV7"
+uri = "file://artifacts/aurizin/src/assets/ent-4.png"
+type = "image"
+title = "ent card 4"
+
+[[generated]]
+id = "ZFFhripZ5x_Oz9uBFqdF9"
+uri = "file://artifacts/aurizin/src/assets/re-3.png"
+type = "image"
+title = "re card 3"
+
+[[generated]]
+id = "5Bs-ljjURNOgUGDEcey7a"
+uri = "file://artifacts/aurizin/src/assets/hsp-hero.png"
+type = "image"
+title = "hsp 3d hero"
+
+[[generated]]
+id = "t7jN_rTNIatF1d82ka7X6"
+uri = "file://artifacts/aurizin/src/assets/mfg-2.png"
+type = "image"
+title = "mfg card 2"
+
+[[generated]]
+id = "CjZZQwGmo50Ww2mYfasOA"
+uri = "file://artifacts/aurizin/src/assets/log-6.png"
+type = "image"
+title = "log card 6"
+
+[[generated]]
+id = "zEDqGzTN6YJ1-wHXwsH2C"
+uri = "file://artifacts/aurizin/src/assets/su-2.png"
+type = "image"
+title = "su card 2"
+
+[[generated]]
+id = "qBNSc1omfuhTpyiQ9-5VS"
+uri = "file://artifacts/aurizin/src/assets/gm-1.png"
+type = "image"
+title = "gm card 1"
+
+[[generated]]
+id = "s7HQrQFi-fqqIcOMI1Oro"
+uri = "file://artifacts/aurizin/src/assets/ent-5.png"
+type = "image"
+title = "ent card 5"
+
+[[generated]]
+id = "srtQWQUjGw8wOJ7_0ww30"
+uri = "file://artifacts/aurizin/src/assets/re-4.png"
+type = "image"
+title = "re card 4"
+
+[[generated]]
+id = "ZEc-NTzcc7v0KbJexnoDU"
+uri = "file://artifacts/aurizin/src/assets/hsp-1.png"
+type = "image"
+title = "hsp card 1"
+
+[[generated]]
+id = "D_93gdzRAimtFzH19YuJD"
+uri = "file://artifacts/aurizin/src/assets/mfg-3.png"
+type = "image"
+title = "mfg card 3"
+
+[[generated]]
+id = "LdpaPsK1vedQll8ZfaEqz"
+uri = "file://artifacts/aurizin/src/assets/gov-hero.png"
+type = "image"
+title = "gov 3d hero"
+
+[[generated]]
+id = "GWY0GkRZ39erICyzo_DzQ"
+uri = "file://artifacts/aurizin/src/assets/su-3.png"
+type = "image"
+title = "su card 3"
+
+[[generated]]
+id = "Pk3bzfwnOzlVCgszSLB1M"
+uri = "file://artifacts/aurizin/src/assets/gm-2.png"
+type = "image"
+title = "gm card 2"
+
+[[generated]]
+id = "zyuMLnzoafvb3Z4qvHL6e"
+uri = "file://artifacts/aurizin/src/assets/ent-6.png"
+type = "image"
+title = "ent card 6"
+
+[[generated]]
+id = "9Rlr8PIFEXvPR3BnIIvQi"
+uri = "file://artifacts/aurizin/src/assets/re-5.png"
+type = "image"
+title = "re card 5"
+
+[[generated]]
+id = "9kVbhjB0faY1hc0SCjcKN"
+uri = "file://artifacts/aurizin/src/assets/mfg-4.png"
+type = "image"
+title = "mfg card 4"
+
+[[generated]]
+id = "i8Jw1sNF2F8E53O3mwNUM"
+uri = "file://artifacts/aurizin/src/assets/gov-1.png"
+type = "image"
+title = "gov card 1"
+
+[[generated]]
+id = "FRs6kpHZaJK2xCPjtdxlR"
+uri = "file://artifacts/aurizin/src/assets/su-4.png"
+type = "image"
+title = "su card 4"
+
+[[generated]]
+id = "sMDpeer2Sap0q-IJM6fki"
+uri = "file://artifacts/aurizin/src/assets/gm-3.png"
+type = "image"
+title = "gm card 3"
+
+[[generated]]
+id = "gRg-kxXWrZZmi-TgCrI1S"
+uri = "file://artifacts/aurizin/src/assets/re-6.png"
+type = "image"
+title = "re card 6"
+
+[[generated]]
+id = "LLzFZ6J9JP8MK8WSlBWYG"
+uri = "file://artifacts/aurizin/src/assets/mfg-5.png"
+type = "image"
+title = "mfg card 5"
+
+[[generated]]
+id = "ODJfn_QTAp3MIKtEzBcLT"
+uri = "file://artifacts/aurizin/src/assets/su-5.png"
+type = "image"
+title = "su card 5"
+
+[[generated]]
+id = "bKeSEHO1CFJSe7uZKDDq7"
+uri = "file://artifacts/aurizin/src/assets/gm-4.png"
+type = "image"
+title = "gm card 4"
+
+[[generated]]
+id = "94GtMPNr-se7VAmb7Nbux"
+uri = "file://artifacts/aurizin/src/assets/log-hero.png"
+type = "image"
+title = "log 3d hero"
+
+[[generated]]
+id = "k134pvoRfEEEUD0_Gp2jQ"
+uri = "file://artifacts/aurizin/src/assets/gov-3.png"
+type = "image"
+title = "gov card 3"
+
+[[generated]]
+id = "uELUa_7Sn2dMWG2ua72yO"
+uri = "file://artifacts/aurizin/src/assets/su-6.png"
+type = "image"
+title = "su card 6"
+
+[[generated]]
+id = "mPQtC-xDnnX4JIn6Inpql"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d-v1.png"
+type = "image"
+title = "aurizin 3d icon v1"
+
+[[generated]]
+id = "RadezUIpwgrneW8hqXGqw"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d-v2.png"
+type = "image"
+title = "aurizin 3d icon v2"
+
+[[generated]]
+id = "iZC8E43EypdoHOLkBgLjr"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d.png"
+type = "image"
+title = "aurizin favicon 3d hero"
+
+[[outputs]]
+id = "ln6zSIFIXIozZztvZwp5B"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d-v1.png"
+type = "image"
+title = "3D Icon - Option 1 (faceted blade, reflection)"
+
+[[outputs]]
+id = "dxSGiKO4hkubaQP9zvPEO"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d-v2.png"
+type = "image"
+title = "3D Icon - Option 2 (three-quarter view, data lines)"
+
+[[outputs]]
+id = "1WXOA3U3vfM6b_nmfyiNm"
+uri = "file://artifacts/aurizin/src/assets/hero-icon-3d.png"
+type = "image"
+title = "3D Hero Icon (based on your favicon, blends with dark background)"

@@ -1,0 +1,4 @@
+- [react-icons missing brand exports](react-icons-missing-exports.md) — some Si* brand glyphs were removed (SiAmazonaws, SiVscode); use FaAws/VscVscode etc.
+- [Aurizin sitemap generation](aurizin-sitemap.md) — build-time regex generator (scripts/generate-sitemap.mjs) + Vite plugin; auto-discovers routes, fails build on unmapped dynamic routes.
+- [React Query auth-gated cache leak](rq-auth-cache-leak.md) — bearer-in-headers + static query key caches sensitive data; use gcTime:0 + removeQueries on logout/401.
+- [Theme-aware decoration](theme-aware-decoration.md) — hardcoded/white-alpha backgrounds & glass ignore the dark/light toggle; gate them with dark: variants.

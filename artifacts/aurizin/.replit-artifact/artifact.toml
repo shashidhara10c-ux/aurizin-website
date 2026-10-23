@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Aurizin Innovations"
+version = "1.0.0"
+id = "artifacts/aurizin"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18454
+
+[services.development]
+run = "pnpm --filter @workspace/aurizin run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aurizin", "run", "build" ]
+publicDir = "artifacts/aurizin/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18454"
+BASE_PATH = "/"
